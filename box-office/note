@@ -1,0 +1,3 @@
+react doesn't have any builtin solution for the routing system  for this reason the react community has built a package that we can use a our routing system 
+
+npm install react-router-dom react-router
