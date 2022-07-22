@@ -10,3 +10,6 @@ r.json means convert raw data in the form of json  (this r) mean response given 
 second then receive result by the api(Application Programming Interface)
 
 https://www.toptal.com/developers/keycode/for/enter
+
+result.map(()=>{})
+jo function likha ha ussa callback function bolta ha i.e. map ka saath callback function alway used hogga 
