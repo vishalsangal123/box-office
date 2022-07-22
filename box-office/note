@@ -13,3 +13,8 @@ https://www.toptal.com/developers/keycode/for/enter
 
 result.map(()=>{})
 jo function likha ha ussa callback function bolta ha i.e. map ka saath callback function alway used hogga 
+
+// https://api.tvmaze.com/search/shows?q=men
+// https://api.tvmaze.com/search/people?q=men
+
+npm install styled-component
