@@ -18,3 +18,29 @@ jo function likha ha ussa callback function bolta ha i.e. map ka saath callback 
 // https://api.tvmaze.com/search/people?q=men
 
 npm install styled-component
+
+useeffect function runs only one time when the component is mounted if array is empty
+
+if change in array value which is associated with useeffect function  then useeffect function call everytime 
+
+
+clean up function: - It is the function that we return from the callback   This return function will be run that before the next callback will be fired 
+
+
+
+  useEffect(()=>{
+
+return ()=>{
+   console.log('exit');
+};
+
+    console.log('xyz');
+  },[searchOption]);
+
+
+
+
+  tvmaze--> show more information--->embedding part( https://api.tvmaze.com/shows/1?embed[]=episodes&embed[]=cast)
+
+
+  https://api.tvmaze.com/shows/1?embed[]=seasons&embed[]=cast
